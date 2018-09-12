@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+  text-decoration: none; 
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.top {
+	height: 40px;
+	max-width: 1200px;
+	text-align: center;
+	margin: 20px auto 0;
+}
+
+.logo-top {
+	padding-top: 8px;
+	float: left;	
+}
+
+.slack-btn-top {
+	float: right;
+}
+
+.top-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 120px auto 0;
+	text-align: left;  
+	max-width: 1200px;
+}
+
+.sniffy-description {
+	max-width: 626px;
+	align-self: center;
+}
+
+.sniffy-headline {
+	font-size: 39px;
+	font-weight: 800;
+	line-height: 48px;
+	margin-bottom: 13px;
+}
+
+.description, .h2-description, .h3-description {
+	color: #4B4B4B;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	max-width: 520px;
+	margin-bottom: 22px;
+}
+
+.bot-mockup {
+	background-size: 469px 426px;
+	max-height: 426px;
+}
+
+.slack-btn {
+	background-size: 139px 40px;
+	max-height: 40px;	
+}
+
+.never-miss {
+	margin: 150px auto 0;
+	text-align: center;  
+	max-width: 1200px;	
+}
+
+h2 {
+	margin: 0 auto 14px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 36px;
+	max-width: 571px;
+}
+
+.h2-description {
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 780px;
+}
+
+.features-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	text-align: center;  
+	max-width: 1200px;
+}
+
+.never-miss-description {
+	margin-bottom: 40px;
+}
+
+.f-1 {
+	max-width: 350px
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;	
+  margin: 24px 0 10px;
+}
+
+.h3-description {
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.webapp {
+	margin: 0 auto;
+}
+
+.web-app {
+	background-size: 1085px 776px;
+	max-height: 776px;
+}
+
+footer {
+	margin-top: 150px;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-around;
+	background-color: #434FBF;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.text-footer {
+	align-self: center;
+}
+
+.alt {
+	color: #FFFFFF;
+	font-family: OpenSans;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: center;
+	max-width: 582px;
+}
+
+.footer-bottom {
+	display: flex;
+	justify-content: space-around;
+	background-color: #3541B7;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.footer-description {
+	align-self: center;
+	color: #BCC3FF;
+	font-size: 13px;
+	font-weight: 400;
+}
