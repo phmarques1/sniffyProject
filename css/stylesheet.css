@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'Open Sans';
-  text-decoration: none; 
+  text-decoration: none;
+  background-color: #0C1014;
 }
 
 * {
@@ -29,8 +30,6 @@ img {
 .logo-top {
 	padding-top: 8px;
 	float: left;
-	background-size: 146px 56px;
-	max-height: 56px;
 }
 
 .slack-btn-top {
@@ -43,6 +42,7 @@ img {
 	margin: 120px auto 0;
 	text-align: left;  
 	max-width: 1200px;
+	color: white;
 }
 
 .sniffy-description {
@@ -64,6 +64,7 @@ img {
 	line-height: 30px;
 	max-width: 520px;
 	margin-bottom: 22px;
+	color: white;
 }
 
 .bot-mockup {
@@ -77,9 +78,10 @@ img {
 }
 
 .never-miss {
-	margin: 150px auto 0;
+	margin: 200px auto 0;
 	text-align: center;  
-	max-width: 1200px;	
+	max-width: 1200px;
+	color: white;	
 }
 
 h2 {
@@ -106,7 +108,7 @@ h2 {
 }
 
 .never-miss-description {
-	margin-bottom: 40px;
+	margin-bottom: 55px;
 }
 
 .f-1 {
@@ -125,6 +127,7 @@ h3 {
   font-size: 15px;
   line-height: 26px;
   margin-bottom: 0;
+  color: #8792A0;
 }
 
 .webapp {
@@ -136,15 +139,11 @@ h3 {
 	max-height: 776px;
 }
 
-footer {
-	margin-top: 150px;
-}
-
 .footer-top {
 	display: flex;
 	justify-content: space-around;
-	background-color: #434FBF;
-	height: 300px;
+	background-color: #0C1014;
+	height: 400px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -166,16 +165,339 @@ footer {
 .footer-bottom {
 	display: flex;
 	justify-content: space-around;
-	background-color: #3541B7;
+	background-color: #0C1014;
 	height: 50px;
 	text-align: center;
 	margin: 0 auto;
 }
 
-
 .footer-description {
 	align-self: center;
-	color: #BCC3FF;
+	color: #8792a0;
 	font-size: 13px;
 	font-weight: 400;
 }
+
+/********* RESPONSIVE *********/
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+
+.top, .never-miss {
+	padding: 0 5%;
+}
+
+.slack-btn {
+	margin-bottom: 20px;
+}
+
+.sniffy-description {
+	text-align: center;
+}
+
+.sniffy-headline {
+	font-size: 2em;
+	font-weight: 800;
+	line-height: 46px;
+	margin-bottom: 20px;	
+}
+
+.h2-description, .description {
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 34px;
+	margin: 0 auto;
+}
+
+.description {
+	margin-bottom: 30px;
+}
+
+.never-miss {
+	margin-top: 80px;
+}
+
+.top-container {
+	margin-top: 80px;
+	align-items: center;
+	flex-direction: column;
+}
+
+.features-container {
+	align-items: center;
+	flex-direction: column;
+}
+
+.feature-1, .feature-2 {
+	margin-bottom: 55px;
+}
+
+h2 {
+	font-size: 1.7em;
+	line-height: 34px;
+}
+
+h3 {
+	font-size: 1.4em;
+	line-height: 34px;	
+}
+
+.h3-description {
+	font-size: 1.25em;
+	line-height: 30px;		
+}
+
+.alt {
+	font-size: 2em;
+	line-height: 45px;
+	padding: 0 30px;
+}
+
+.footer-description {
+	font-size: 1.05em;
+}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+
+        /***********************************
+
+        iPhone 5
+
+        ************************************/
+
+
+.top, .never-miss, .top-container {
+	padding: 0 6%;
+}
+
+.slack-btn {
+	margin-bottom: 30px;
+}
+
+.sniffy-description {
+	text-align: center;
+}
+
+.sniffy-headline {
+	font-size: 1.6em;
+	font-weight: 800;
+	line-height: 36px;
+	margin-bottom: 13px;	
+}
+
+.h2-description, .description {
+	text-align: center;
+	font-size: 0.98em;
+	line-height: 26px;
+}
+
+.never-miss {
+	margin-top: 80px;
+}
+
+.top-container {
+	margin-top: 80px;
+	align-items: center;
+	flex-direction: column;
+}
+
+.features-container {
+	align-items: center;
+	flex-direction: column;
+}
+
+.feature-1, .feature-2 {
+	margin-bottom: 55px;
+}
+
+h2 {
+	font-size: 1.3em;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 1em;
+	line-height: 26px;	
+}
+
+.h3-description {
+	font-size: 0.94em;
+	line-height: 25px;		
+}
+
+.alt {
+	font-size: 1.4em;
+	line-height: 30px;
+	padding: 0 30px;
+}
+
+.footer-description {
+	font-size: 0.75em;
+}
+
+}
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  
+
+        /***********************************
+
+        iPhone 6/7/8
+
+        ************************************/
+
+.sniffy-description {
+	text-align: center;
+}
+
+.sniffy-headline {
+	font-size: 1.6em;
+	line-height: 36px;	
+}
+
+.h2-description, .description {
+	font-size: 1.02em;
+	line-height: 25px;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 32px;
+}
+
+h3 {
+	font-size: 1.1em;
+	line-height: 28px;	
+}
+
+.h3-description {
+	font-size: 0.98em;
+	line-height: 27px;		
+}
+
+.alt {
+	font-size: 1.6em;
+	line-height: 37px;
+}
+
+.footer-description {
+	font-size: 0.85em;
+}
+
+}
+
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3) {
+
+        /***********************************
+
+        iPhone 6/7/8 Plus
+
+        ************************************/
+
+.sniffy-description {
+	text-align: center;
+}
+
+.sniffy-headline {
+	font-size: 1.9em;
+	line-height:40px;
+	margin-bottom: 20px;	
+}
+
+.h2-description, .description {
+	font-size: 1.15em;
+	line-height: 30px;
+}
+
+.description {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 32px;
+}
+
+h3 {
+	font-size: 1.25em;
+	line-height: 30px;	
+}
+
+.h3-description {
+	font-size: 1.1em;
+	line-height: 28px;		
+}
+
+.alt {
+	font-size: 1.8em;
+	line-height: 38px;
+}
+
+.footer-description {
+	font-size: 0.9em;
+}
+
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation : portrait) { 
+
+        /***********************************
+
+        iPhone X
+
+        ************************************/
+
+.sniffy-description {
+	text-align: center;
+}
+
+.sniffy-headline {
+	font-size: 1.8em;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+
+.h2-description, .description {
+	font-size: 1.2em;
+	line-height: 31px;
+}
+
+.description {
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 1.65em;
+	line-height: 40px;
+}
+
+h3 {
+	font-size: 1.25em;
+	line-height: 34px;	
+}
+
+.h3-description {
+	font-size: 1.15em;
+	line-height: 30px;		
+}
+
+.alt {
+	font-size: 1.8em;
+	line-height: 45px;
+}
+
+.footer-description {
+	font-size: 0.95em;
+}
+
+
+}
+
