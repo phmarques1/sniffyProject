@@ -28,7 +28,9 @@ img {
 
 .logo-top {
 	padding-top: 8px;
-	float: left;	
+	float: left;
+	background-size: 146px 56px;
+	max-height: 56px;
 }
 
 .slack-btn-top {
