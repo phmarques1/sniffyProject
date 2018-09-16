@@ -93,8 +93,8 @@ img {
 }
 
 .f2-icon {
-	background-size: 400px 287px;
-	max-height: 287px;	
+	background-size: 404px 324px;
+	max-height: 324px;	
 }
 
 .f3-icon {
@@ -312,23 +312,15 @@ h3 {
 
 
 .f1-icon {
-	background-size: 190px 198px;
-	max-height: 198px;	
+	max-height: 234px;	
 }
 
 .f2-icon {
-	background-size: 286px 185px;
-	max-height: 185px;	
+	max-height: 304px;	
 }
 
 .f3-icon {
-	background-size: 312px 230px;
-	max-height: 230px;	
-}
-
-.f4-icon {
-	background-size: 311px 223px;
-	max-height: 223px;	
+	max-height: 324px;	
 }
 
 .feature-1, .feature-3 {
