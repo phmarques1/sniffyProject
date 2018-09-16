@@ -266,8 +266,12 @@ li a {
 	flex-direction: column;
 }
 
-.feature-2, .feature-4 {
-	order: 1;
+.feature-1, .feature-3 {
+	order: -1;
+}
+
+.f-icon {
+	margin-top: 50px;
 }
 
 h2 {
@@ -327,6 +331,14 @@ h3 {
 	max-height: 213px;	
 }
 
+.feature-1, .feature-3 {
+	order: -1;
+}
+
+.f-icon {
+	margin-top: 40px;
+}
+
 .btn {
 	display: none;
 }
@@ -375,10 +387,6 @@ h3 {
 	align-items: center;
 	flex-direction: column;
 	margin-top: 110px;
-}
-
-.feature-2, .feature-4 {
-	order: 1;
 }
 
 
