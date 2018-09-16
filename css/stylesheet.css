@@ -312,23 +312,23 @@ h3 {
 
 
 .f1-icon {
-	background-size: 180px 188px;
-	max-height: 188px;	
+	background-size: 190px 198px;
+	max-height: 198px;	
 }
 
 .f2-icon {
-	background-size: 276px 175px;
-	max-height: 175px;	
+	background-size: 286px 185px;
+	max-height: 185px;	
 }
 
 .f3-icon {
-	background-size: 302px 220px;
-	max-height: 220px;	
+	background-size: 312px 230px;
+	max-height: 230px;	
 }
 
 .f4-icon {
-	background-size: 301px 213px;
-	max-height: 213px;	
+	background-size: 311px 223px;
+	max-height: 223px;	
 }
 
 .feature-1, .feature-3 {
@@ -432,15 +432,16 @@ ul {
 
         ************************************/
 
-h2, h3 {
+.sniffy-headline, h2, h3 {
 	text-align: center;
-	font-size: 1.2em;
-	line-height: 32px;
+	font-size: 1.32em;
+	line-height: 33px;
+	margin: 12px auto;
 }
 
 .h3-description, .h2-description {
-	font-size: 1.0em;
-	line-height: 26px;	
+	font-size: 1.08em;
+	line-height: 27px;	
 }
 
 }
@@ -454,15 +455,15 @@ h2, h3 {
 
         ************************************/
 
-h2, h3 {
+.sniffy-headline, h2, h3 {
 	text-align: center;
-	font-size: 1.25em;
+	font-size: 1.4em;
 	line-height: 34px;
 }
 
 .description, .h3-description, .h2-description {
-	font-size: 1.05em;
-	line-height: 26px;	
+	font-size: 1.15em;
+	line-height: 28px;	
 }
 
 }
@@ -479,15 +480,15 @@ h2, h3 {
 
         ************************************/
 
-h2, h3 {
+.sniffy-headline, h2, h3 {
 	text-align: center;
-	font-size: 1.35em;
-	line-height: 36px;
+	font-size: 1.6em;
+	line-height: 38px;
 }
 
 .description, .h3-description, .h2-description {
-	font-size: 1.15em;
-	line-height: 30px;	
+	font-size: 1.28em;
+	line-height: 32px;	
 }
 
 }
