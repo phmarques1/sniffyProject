@@ -229,6 +229,71 @@ hr {
 	max-height: 776px;
 }
 
+.p-form {
+	color: white;
+	margin-bottom: 14px;
+	line-height: 30px;
+}
+
+.form-container {
+	padding: 0 5%;
+}
+
+form {
+	padding: 20px;
+	background-color: #222527;
+	max-width: 680px;
+	margin: 0 auto 40px;
+	border: 1px solid #323537;
+    border-radius: 4px;
+}
+
+.form-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input[type=email], select, textarea {
+    width: 330px;
+    padding: 10px;
+    font-size: 14px;
+    color: black;  
+    border: none; 
+    border-radius: 2px; 
+    box-sizing: border-box; 
+    resize: vertical;
+}
+
+input[type=submit] {
+	width: 110px;
+    background-color: #434FBF;
+    font-size: 14px; 
+    color: white;
+    margin-left: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #505DD0;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(160,160,160);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(160,160,160);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(160,160,160);
+}
+
 .footer-top {
 	display: flex;
 	justify-content: space-around;
@@ -283,6 +348,8 @@ li a {
 	font-size: 15px;
 	color: #8792a0;
 }
+
+
 
 
 /********* RESPONSIVE *********/
@@ -527,6 +594,20 @@ h2, h3 {
 	padding: 0 4%;
 }
 
+.form-content {
+	flex-direction: column;
+}
+
+input[type=email], select, textarea {
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+	width: 230px;
+	margin-left: 0;
+}
+
 .footer-title {
 	font-size: 1.5em;
 }
@@ -598,6 +679,21 @@ h2, h3 {
 	line-height: 26px;	
 }
 
+.p-form {
+  	font-size: 1.05em;
+	line-height: 26px;
+}
+
+input[type=email], select, textarea {
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+	width: 270px;
+	margin-left: 0;
+}
+
 
 }
 
@@ -646,6 +742,16 @@ hr {
 	line-height: 28px;	
 }
 
+input[type=email], select, textarea {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+	width: 300px;
+	margin-left: 0;
+}
+
 }
 
 @media only screen 
@@ -685,7 +791,6 @@ hr {
     border: 0;
 }
 
-
 .hiw-elements-title {
   	font-size: 1.32em;
 	line-height: 33px;
@@ -694,6 +799,16 @@ hr {
 .description, .h3-description, .h2-description, .hiw-description {
 	font-size: 1.28em;
 	line-height: 32px;	
+}
+
+input[type=email], select, textarea {
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+	width: 270px;
+	margin-left: 0;
 }
 
 }
