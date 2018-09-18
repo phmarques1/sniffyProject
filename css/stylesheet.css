@@ -599,28 +599,17 @@ h2, h3 {
 }
 
 
+.input {
+  -webkit-appearance: none;
+}
+
 input[type=email], select, textarea {
 	width: 230px;
-    padding: 10px;
-    font-size: 14px;
-    color: black;  
-    border: none; 
-    border-radius: 2px; 
-    box-sizing: border-box; 
-    resize: vertical;
     margin-bottom: 10px;
 }
 
 input[type=submit] {
     width: 230px;
-    background-color: #434FBF;
-    font-size: 14px; 
-    color: white;
-    margin-left: 8px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
 	margin-left: 0;
 }
 
