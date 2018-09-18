@@ -361,6 +361,10 @@ li a {
 	color: #8792a0;
 }
 
+li a:hover {
+	color: #5a5ae6;
+}
+
 
 
 
