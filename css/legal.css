@@ -22,6 +22,8 @@ img {
 }
 
 .top {
+	display: flex;
+	justify-content: space-between;
 	height: 50px;
 	max-width: 1200px;
 	text-align: center;
@@ -29,40 +31,19 @@ img {
 }
 
 .logo-top {
-	padding-top: 12px;
-	float: left;
-}
-
-.slack-btn-top {
-	float: right;
+	margin-top: 8px;
+	background-size: 150px 35px;
+	max-height: 35px;
 }
 
 .top-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	margin: 120px auto 0;
-	text-align: left;  
+	text-align: center;  
 	max-width: 1200px;
 	color: white;
-}
-
-.sniffy-description {
-	max-width: 626px;
-	align-self: center;
-}
-
-.sniffy-headline {
-	font-size: 39px;
-	font-weight: 800;
-	line-height: 54px;
-	margin-bottom: 13px;
-}
-
-.description {
-	margin: 15px auto 25px;
-	max-width: 520px;
-	color: #8792A0;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 30px;
 }
 
 .slack-btn {
@@ -71,34 +52,91 @@ img {
 	margin-bottom: 40px;	
 }
 
+.title {
+	margin: 120px auto 80px;
+	max-width: 960px;
+}
 
-h2 {
-	margin: 0 auto 14px;
-	text-align: center;
-	font-size: 24px;
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 44px;
 	font-weight: 800;
-	line-height: 36px;
-	max-width: 571px;
+	line-height: 55px;
+	text-align: center;	
 	color: white;
 }
 
-h3 {
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 19px;
-  text-align: left;	
-  margin: 24px 0 20px;
+hr {
+	width: 192px;
+    height: 12px;
+    background-color: #5a5ae6;
+    border-radius: 1px;
+    margin: 28px auto 24px;
+    border: 0;
 }
 
-h4 {
-	margin: 0 auto 14px;
-	text-align: center;
-	font-size: 18px;
-	font-weight: 800;
-	line-height: 36px;
-	max-width: 571px;
-	color: white;	
+.section {
+	margin: 0 auto;
+	max-width: 960px;
 }
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 19px;	
+	color: white;
+	margin-bottom: 24px;	
+}
+
+.break-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.break {
+	height: 1px;
+    border: 2px;
+    background-color: #434648;
+    width: 100%;
+    margin: 60px auto;
+}
+
+.command {
+	color: #fff;
+    background-color: #5a5ae6;
+    display: inline-block;
+    border-radius: 4px;
+    white-space: nowrap;
+    padding: 1px 4px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -.15px;
+	font-family: 'Overpass Mono', monospace;
+}
+
+.content {
+	font-size: 17px;
+	line-height: 28px;
+	margin-bottom: 0;
+	color: #8792A0;
+}
+
+.description {
+	font-size: 17px;
+	line-height: 28px;
+	margin: 15px auto 25px;
+	color: #8792A0;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	max-width: 500px;	
+}
+
+
+
+
+
+
 
 
 .footer-top {
@@ -115,10 +153,12 @@ h4 {
 }
 
 .footer-title {
+	font-family: 'Playfair Display', serif;
 	font-size: 39px;
 	font-weight: 800;
 	line-height: 40px;
 	margin-bottom: 13px;
+	color: white;
 }
 
 .footer-bottom {
@@ -138,8 +178,8 @@ h4 {
 	font-weight: 400;
 }
 
-.sniffy-alt {
-	background-size: 82px 30px;
+.fastgrep-alt {
+	background-size: 124px 30px;
 	max-height: 30px;	
 }
 
@@ -155,6 +195,11 @@ li a {
 	font-size: 15px;
 	color: #8792a0;
 }
+
+li a:hover {
+	color: #5a5ae6;
+}
+
 
 
 /********* RESPONSIVE *********/
