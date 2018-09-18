@@ -598,17 +598,13 @@ h2, h3 {
 	flex-direction: column;
 }
 
-
-.input {
-  -webkit-appearance: none;
-}
-
 input[type=email], select, textarea {
 	width: 230px;
     margin-bottom: 10px;
 }
 
 input[type=submit] {
+	-webkit-appearance: none;
     width: 230px;
 	margin-left: 0;
 }
@@ -695,6 +691,7 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
+  	-webkit-appearance: none;
     width: 270px;
 	margin-left: 0;
 }
@@ -753,6 +750,7 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
+  	-webkit-appearance: none;
     width: 300px;
 	margin-left: 0;
 }
@@ -812,6 +810,7 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
+	-webkit-appearance: none;
     width: 270px;
 	margin-left: 0;
 }
