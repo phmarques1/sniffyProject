@@ -84,9 +84,21 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	font-weight: 800;
-	line-height: 19px;	
+	line-height: 34px;	
 	color: white;
 	margin-bottom: 24px;	
+}
+
+h3 {
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 30px;	
+	color: white;
+	margin-bottom: 10px;	
+}
+
+.h3-div {
+	margin-top: 24px;
 }
 
 .break-container {
@@ -119,6 +131,11 @@ h2 {
 	font-family: 'Overpass Mono', monospace;
 }
 
+.bullet-type {
+	padding-left: 35px;
+	color: white;
+}
+
 .content {
 	font-size: 17px;
 	line-height: 28px;
@@ -136,12 +153,9 @@ h2 {
 	max-width: 540px;	
 }
 
-
-
-
-
-
-
+ol {
+	padding-top: 24px;
+}
 
 .footer-top {
 	display: flex;
@@ -189,9 +203,17 @@ h2 {
 
 
 li {
-  display: inline;
   padding-left: 20px;
 
+}
+
+.footer-li {
+	display: inline;
+}
+
+.inline-link {
+	text-decoration: none;
+	color: #5a5ae6;	
 }
 
 li a {
