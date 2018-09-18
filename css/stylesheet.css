@@ -691,26 +691,11 @@ h2, h3 {
 
 input[type=email], select, textarea {
 	width: 270px;
-    padding: 10px;
-    font-size: 14px;
-    color: black;  
-    border: none; 
-    border-radius: 2px; 
-    box-sizing: border-box; 
-    resize: vertical;
     margin-bottom: 10px;
 }
 
 input[type=submit] {
     width: 270px;
-    background-color: #434FBF;
-    font-size: 14px; 
-    color: white;
-    margin-left: 8px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
 	margin-left: 0;
 }
 
@@ -764,26 +749,11 @@ hr {
 
 input[type=email], select, textarea {
 	width: 300px;
-    padding: 10px;
-    font-size: 14px;
-    color: black;  
-    border: none; 
-    border-radius: 2px; 
-    box-sizing: border-box; 
-    resize: vertical;
     margin-bottom: 10px;
 }
 
 input[type=submit] {
     width: 300px;
-    background-color: #434FBF;
-    font-size: 14px; 
-    color: white;
-    margin-left: 8px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
 	margin-left: 0;
 }
 
@@ -838,26 +808,11 @@ hr {
 
 input[type=email], select, textarea {
 	width: 270px;
-    padding: 10px;
-    font-size: 14px;
-    color: black;  
-    border: none; 
-    border-radius: 2px; 
-    box-sizing: border-box; 
-    resize: vertical;
     margin-bottom: 10px;
 }
 
 input[type=submit] {
     width: 270px;
-    background-color: #434FBF;
-    font-size: 14px; 
-    color: white;
-    margin-left: 8px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
 	margin-left: 0;
 }
 
