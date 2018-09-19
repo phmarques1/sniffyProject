@@ -26,6 +26,36 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <script>
+
+            function getCookie(name) {
+              var value = "; " + document.cookie;
+              var parts = value.split("; " + name + "=");
+              if (parts.length == 2) return parts.pop().split(";").shift();
+            }
+
+            function generateSlackLink() {
+
+                var team_id = getCookie('team_id');
+                var bot_id = getCookie('bot_user_id');
+
+                console.log('here');
+                if (team_id && bot_id) {
+                    var url = 'slack://user?team=' + team_id + '&id=' + bot_id;
+                    //$('#slack_link').attr('href',url);
+                    console.log(url);
+                }
+
+
+            }
+
+            $(function() {
+                generateSlackLink();
+            });
+
+        </script>
 </head>
 
 <body>
