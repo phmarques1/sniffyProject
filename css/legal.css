@@ -166,6 +166,10 @@ ol {
 	text-align: center;
 }
 
+.footer-cta {
+	margin-bottom: 0;
+}
+
 .text-footer {
 	align-self: center;
 }
@@ -240,68 +244,8 @@ li a:hover {
 	padding: 0 4%;
 }
 
-.slack-btn {
-	margin-bottom: 20px;
-}
-
-.sniffy-description {
-	text-align: center;
-}
-
-.sniffy-headline {
-	font-size: 2em;
-	font-weight: 800;
-	line-height: 46px;
-	margin-bottom: 20px;	
-}
-
-.feature-wrapper {
-	text-align: center;
-	max-width: 600px;
-}
-
-.description {
-	margin-bottom: 50px;
-}
-
-.top-container {
-	margin-top: 80px;
-	align-items: center;
-	flex-direction: column;
-}
-
-.features-container {
-	align-items: center;
-	flex-direction: column;
-}
-
-.feature-1, .feature-3 {
-	order: -1;
-}
-
-.f-icon {
-	margin-top: 50px;
-}
-
-h2 {
-	text-align: center;
-	font-size: 1.7em;
-	line-height: 34px;
-}
-
-h3 {
-	text-align: center;
-	font-size: 1.4em;
-	line-height: 34px;	
-}
-
-.h3-description {
-	font-size: 1.25em;
-	line-height: 30px;	
-}
-
-.h2-description {
-	max-width: 600px;	
+.section, .top-container  {
+	padding: 0 4%;
 }
 
 .web-container, .footer-bottom {
@@ -319,33 +263,29 @@ h3 {
 
         ************************************/
 
-
-.f1-icon {
-	max-height: 234px;	
-}
-
-.f2-icon {
-	max-height: 304px;	
-}
-
-.f3-icon {
-	max-height: 324px;	
-}
-
-.feature-1, .feature-3 {
-	order: -1;
-}
-
-.f-icon {
-	margin-top: 40px;
-}
-
-.btn {
+.slack-btn-top {
 	display: none;
 }
 
 .top, .top-container  {
 	padding: 0 4%;
+}
+
+.content-title {
+	font-size: 30px;
+	line-height: 44px;
+}
+
+.section, .text-footer {
+	padding: 0 7%;
+}
+
+.top {
+	justify-content: center;
+}
+
+h2, h3 {
+	text-align: left;
 }
 
 .slack-btn {
@@ -363,47 +303,10 @@ h3 {
 	margin-bottom: 20px;	
 }
 
-.feature-wrapper {
-	text-align: center;
-	max-width: 600px;
-}
-
 .description {
 	font-size: 1.05em;
 	line-height: 27px;
 	margin-bottom: 30px;
-}
-
-.top-container {
-	margin-top: 80px;
-	align-items: center;
-	flex-direction: column;
-}
-
-.features {
-	padding: 0 5%;
-}
-
-.features-container {
-	align-items: center;
-	flex-direction: column;
-	margin-top: 110px;
-}
-
-
-h2, h3 {
-	text-align: center;
-	font-size: 1.2em;
-	line-height: 32px;
-}
-
-.h3-description, .h2-description {
-	font-size: 1.0em;
-	line-height: 26px;	
-}
-
-.web-container, footer {
-	padding: 0 4%;
 }
 
 .footer-title {
@@ -421,6 +324,11 @@ ul {
 	margin-top: 20px;
 }
 
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 }
 
 
@@ -433,16 +341,34 @@ ul {
 
         ************************************/
 
-.sniffy-headline, h2, h3 {
-	text-align: center;
-	font-size: 1.32em;
-	line-height: 33px;
+.slack-btn-top {
+	display: block;
+}
+
+.top {
+	justify-content: space-between;
+}
+
+.content-title {
+	font-size: 38px;
+	line-height: 52px;
+}
+
+h2, h3 {
+	text-align: left;
+	font-size: 1.4em;
+	line-height: 35px;
 	margin: 12px auto;
 }
 
-.h3-description, .h2-description {
-	font-size: 1.08em;
-	line-height: 27px;	
+.content, .description {
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.footer-title {
+	font-size: 29px;
+	line-height: 40px;
 }
 
 }
@@ -456,15 +382,25 @@ ul {
 
         ************************************/
 
-.sniffy-headline, h2, h3 {
-	text-align: center;
-	font-size: 1.4em;
-	line-height: 34px;
+.content-title {
+	font-size: 38px;
+	line-height: 52px;
 }
 
-.description, .h3-description, .h2-description {
-	font-size: 1.15em;
-	line-height: 28px;	
+h2, h3 {
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 35px;
+	margin: 12px auto;
+}
+
+.content, .description {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.footer-title {
+	font-size: 32px;
 }
 
 }
@@ -481,16 +417,39 @@ ul {
 
         ************************************/
 
-.sniffy-headline, h2, h3 {
-	text-align: center;
-	font-size: 1.6em;
-	line-height: 38px;
+
+.content-title {
+	font-size: 38px;
+	line-height: 52px;
 }
 
-.description, .h3-description, .h2-description {
-	font-size: 1.28em;
-	line-height: 32px;	
+h2, h3 {
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 37px;
+	margin: 12px auto;
 }
+
+
+.section, .text-footer {
+	padding: 0 8%;
+}
+
+.content, .description {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.footer-title {
+	font-size: 32px;
+	line-height: 44px;
+}
+
+
+li a {
+	font-size: 17px;
+}
+
 
 }
 

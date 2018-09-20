@@ -315,6 +315,10 @@ input[type=submit]:hover {
 	text-align: center;
 }
 
+.footer-cta {
+	margin-bottom: 0;
+}
+
 .text-footer {
 	align-self: center;
 }
@@ -511,7 +515,7 @@ h3 {
 	margin-top: 40px;
 }
 
-.btn {
+.slack-btn-top {
 	display: none;
 }
 
@@ -519,8 +523,16 @@ h3 {
 	padding: 0 4%;
 }
 
+.top {
+	justify-content: center;
+}
+
 .slack-btn {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+.footer-cta {
+	margin-bottom: 0;
 }
 
 .sniffy-description {
@@ -546,7 +558,7 @@ h3 {
 .description {
 	font-size: 1.05em;
 	line-height: 27px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .top-container {
@@ -640,6 +652,11 @@ ul {
 	margin-top: 20px;
 }
 
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 }
 
 
@@ -652,7 +669,13 @@ ul {
 
         ************************************/
 
+.slack-btn-top {
+	display: block;
+}
 
+.top {
+	justify-content: space-between;
+}
 
 .sniffy-description {
 	padding: 0 3%;
@@ -710,6 +733,11 @@ input[type=submit] {
   	-webkit-appearance: none;
     width: 270px;
 	margin-left: 0;
+}
+
+.footer-title {
+	font-size: 29px;
+	line-height: 40px;
 }
 
 
@@ -771,6 +799,10 @@ input[type=submit] {
 	margin-left: 0;
 }
 
+.footer-title {
+	font-size: 32px;
+}
+
 }
 
 @media only screen 
@@ -830,6 +862,17 @@ input[type=submit] {
     width: 270px;
 	margin-left: 0;
 }
+
+.footer-title {
+	font-size: 32px;
+	line-height: 44px;
+}
+
+
+li a {
+	font-size: 17px;
+}
+
 
 }
 
