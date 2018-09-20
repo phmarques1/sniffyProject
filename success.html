@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126033722-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126033722-1');
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Fastgrep | Find and organize your Slack team’s links and files</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/success.css">
+    <meta name="author" content="Fastgrep | Find and organize your Slack team’s links and files">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="Fastgrep | Find and organize your Slack team’s links and files">
+    <meta property="og:description" content="Fastgrep monitors your team’s Slack channels and makes it easy to find every link and file shared by you and your teammates.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://phmarques1.github.io/sniffyProject/img/socialsharing.png">
+    <meta property="og:site_name" content="Fastgrep | Find and organize your Slack team’s links and files">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://www.fastgrepbot.com/">
+    <meta name="description" content="Fastgrep monitors your team’s Slack channels and makes it easy to find every link and file shared by you and your teammates."> 
+    <meta name="keywords" content="app, development, mobile, design, ux, ui, digital, slack, designer, ios, android, iphone, files, dev, modern, links, mvp, startups, enterprises, bot">
+    <link rel="canonical" href="http://fastgrepbot.com/">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <script>
+
+            function getCookie(name) {
+              var value = "; " + document.cookie;
+              var parts = value.split("; " + name + "=");
+              if (parts.length == 2) return parts.pop().split(";").shift();
+            }
+
+            function generateSlackLink() {
+
+                var team_id = getCookie('team_id');
+                var bot_id = getCookie('bot_user_id');
+
+                console.log('here');
+                if (team_id && bot_id) {
+                    var url = 'slack://user?team=' + team_id + '&id=' + bot_id;
+                    //$('#slack_link').attr('href',url);
+                    console.log(url);
+                }
+
+
+            }
+
+            $(function() {
+                generateSlackLink();
+            });
+
+        </script>
+</head>
+
+<body>
+
+
+
+
+
+<header class="top">
+    <a href="https://www.fastgrepbot.com"><img src="img/fastgrep@2x.png" class="logo-top"/></a>
+</header>
+
+<div class="container">
+    <div class="top-container"> 
+        <h1 class="headline">Thanks for installing Fastgrep :)</h1>
+        <p class="description">We're redirecting you to @Fastgrep on Slack...</p>
+        <hr>
+        <p class="not-working">Not working? <span><a href="https://api.fastgrepbot.com/login">Try again.</a></span></p>
+        <p class="slack-app">Don't have the Slack app yet? <span><a href="https://api.fastgrepbot.com/login">Download Slack for Desktop.</a></span></p>
+        <p class="slack-app last">Or, you can <span><a href="https://api.fastgrepbot.com/login">open this link in your browser.</a></span></p>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+
+</html>
