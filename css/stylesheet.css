@@ -182,7 +182,7 @@ h3 {
 	line-height: 55px;
 }
 
-.command {
+.command, .c-soon {
 	color: #fff;
     background-color: #5a5ae6;
     display: inline-block;
@@ -193,6 +193,11 @@ h3 {
     line-height: 18px;
     letter-spacing: -.15px;
 	font-family: 'Overpass Mono', monospace;
+}
+
+.c-soon {
+    background-color: #812E30;
+    margin-bottom: 18px;
 }
 
 .h3-description {
@@ -581,6 +586,10 @@ hr {
     border: 0;
 }
 
+.c-soon {
+    margin-bottom: 10px;
+}
+
 .hiw-elements {
 	padding: 0 5%;
 	display: flex;
@@ -700,6 +709,11 @@ hr {
     border-radius: 1px;
     margin: 20px auto 24px;
     border: 0;
+}
+
+.c-soon {
+    margin-bottom: 5px;
+    font-size: 16px;
 }
 
 h2, h3 {
