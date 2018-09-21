@@ -54,7 +54,7 @@
                 if (team_id && bot_id) {
                     var url = 'slack://user?team=' + team_id + '&id=' + bot_id;
                     $('#slack_link').attr('href',url);
-                    var weburl = team_url + '/app_redirect?channel=' + bot_id;
+                    var weburl = team_url + 'app_redirect?channel=' + bot_id;
                     $('#team_link').attr('href',weburl);
                     $(window).attr('location',url);
                 }
