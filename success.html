@@ -48,16 +48,16 @@
             function generateSlackLink() {
 
                 var team_id = getCookie('team_id');
+                var team_url = getCookie('team_url');
                 var bot_id = getCookie('bot_user_id');
 
-                console.log('here');
                 if (team_id && bot_id) {
                     var url = 'slack://user?team=' + team_id + '&id=' + bot_id;
-                    //$('#slack_link').attr('href',url);
-                    console.log(url);
+                    $('#slack_link').attr('href',url);
+                    var weburl = team_url + '/app_redirect?channel=' + bot_id;
+                    $('#team_link').attr('href',weburl);
+                    $(window).attr('location',url);
                 }
-
-
             }
 
             $(function() {
@@ -82,9 +82,9 @@
         <h1 class="headline">Thanks for installing Fastgrep :)</h1>
         <p class="description">We're redirecting you to @Fastgrep on Slack...</p>
         <hr>
-        <p class="not-working">Not working? <span><a href="https://api.fastgrepbot.com/login">Try again.</a></span></p>
-        <p class="slack-app">Don't have the Slack app yet? <span><a href="https://api.fastgrepbot.com/login">Download Slack for Desktop.</a></span></p>
-        <p class="slack-app last">Or, you can <span><a href="https://api.fastgrepbot.com/login">open this link in your browser.</a></span></p>
+        <p class="not-working">Not working? <span><a href="https://api.fastgrepbot.com/login" id="slack_link">Try again.</a></span></p>
+        <p class="slack-app">Don't have the Slack app yet? <span><a href="https://slack.com/downloads">Download Slack for Desktop.</a></span></p>
+        <p class="slack-app last">Or, you can <span><a href="https://api.fastgrepbot.com/login" id="team_link">open this link in your browser.</a></span></p>
     </div>
 </div>
 
